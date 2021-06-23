@@ -13,4 +13,9 @@ To install git on Gentoo based systems, run the command:
 ```sudo emerge -av dev-vcs/git```.
 
 ### Python and Pip
-Python is required for Neovim to function To install python on Arch based systems, run the command: 
+Python is required for Neovim to function To install python and pip on Arch based systems, run the command: 
+```sudo pacman -S python python-pip```.
+To install python and pip on Gentoo based systems, run the command:
+```sudo emerge -av dev-lang/python dev-python/pip```.
+Now install the necassary python module for Neovim with the command:
+```pip install pynvim```.
