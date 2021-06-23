@@ -1,5 +1,4 @@
 # NightVIm
---
 
 This is a Neovim config that I have built myself. I plan on adding to it in the future. If you wish to use it, just clone it to your ~/.config/nvim/ directory. 
 
