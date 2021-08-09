@@ -2,7 +2,8 @@
 
 This is a Neovim config that I have built myself. I plan on adding to it in the future. 
 
-![Start Up Screen](https://user-images.githubusercontent.com/73722314/123036651-64e4e680-d3bb-11eb-912f-f6e49e6cae74.png)
+![Start Up Screen](https://user-images.githubusercontent.com/73722314/128666219-9ca6ba03-7567-4574-908a-a231f3e1fbce.png)
+
 
 ## Prerequisets
 
