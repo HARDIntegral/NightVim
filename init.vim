@@ -7,7 +7,6 @@ source $HOME/.config/nvim/keys/mappings.vim
 " plugins and configurations
 source $HOME/.config/nvim/plugs/plugins.vim
 source $HOME/.config/nvim/modules/startify.vim
-source $HOME/.config/nvim/modules/lightline.vim
-source $HOME/.config/nvim/modules/yami.vim
+source $HOME/.config/nvim/modules/gruvbox.vim
 source $HOME/.config/nvim/modules/nerdtree.vim
-source $HOME/.config/nvim/modules/buffer.vim
+source $HOME/.config/nvim/modules/airline.vim

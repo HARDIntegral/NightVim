@@ -2,7 +2,7 @@
 
 This is a Neovim config that I have built myself. I plan on adding to it in the future. 
 
-![Start Up Screen](https://user-images.githubusercontent.com/73722314/128666219-9ca6ba03-7567-4574-908a-a231f3e1fbce.png)
+[//]: # (![Start Up Screen](https://user-images.githubusercontent.com/73722314/128666219-9ca6ba03-7567-4574-908a-a231f3e1fbce.png))
 
 
 ## Prerequisets
@@ -11,13 +11,13 @@ This is a Neovim config that I have built myself. I plan on adding to it in the 
 Obviously git is required to clone the repo. To install git on Arch based systems, run the command:
 ```sudo pacman -S git```.
 To install git on Gentoo based systems, run the command:
-```sudo emerge -av dev-vcs/git```.
+```sudo emerge -atv dev-vcs/git```.
 
 ### Python and Pip
 Python is required for Neovim to function To install python and pip on Arch based systems, run the command: 
 ```sudo pacman -S python python-pip```.
 To install python and pip on Gentoo based systems, run the command:
-```sudo emerge -av dev-lang/python dev-python/pip```.
+```sudo emerge -atv dev-lang/python dev-python/pip```.
 Now install the necassary python module for Neovim with the command:
 ```pip install pynvim```.
 
@@ -26,14 +26,10 @@ Node is required for the autocomplete plugin COC to function. If you wish to not
 To install Node on Arch based systems, run the command:
 ```sudo pacman -S npm```.
 To install Node on Gentoo based systems, run the command:
-```sudo emerge -av monit nginx nodejs```.
+```sudo emerge -atv monit nginx nodejs```.
 
 ### VimPlug
 In order for any of the plugins to work, vimplug needs to be installed. To install VimPlug, run the command:
-```sh
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ 
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-```
 
 ## Installation
 

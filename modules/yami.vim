@@ -1,2 +1,0 @@
-colorscheme yami
-set termguicolors
