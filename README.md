@@ -2,9 +2,6 @@
 
 This is a Neovim config that I have built myself. I plan on adding to it in the future. 
 
-[//]: # (![Start Up Screen](https://user-images.githubusercontent.com/73722314/128666219-9ca6ba03-7567-4574-908a-a231f3e1fbce.png))
-
-
 ## Prerequisets
 
 ### Git
@@ -35,3 +32,11 @@ In order for any of the plugins to work, vimplug needs to be installed. To insta
 
 All you really need to do is just clone it to your ~/.config/nvim/ directory. After cloning the repo, open Neovim and run the command `:PlugInstall` to install all the plugins.
 After that run `:checkhealth` to make sure Neovim is running properly. To configure COC, refer to the COC documentation.
+
+## Screenshots!
+
+![Start Up Screen](https://cdn.discordapp.com/attachments/819689766479200288/934243857426681966/nvim_home.png)
+
+![Config Screen](https://media.discordapp.net/attachments/819689766479200288/934243857082769468/nvim_config.png)
+
+![Some Code](https://cdn.discordapp.com/attachments/819689766479200288/934243856671719474/nvim_code.png)
